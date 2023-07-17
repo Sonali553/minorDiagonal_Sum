@@ -3,8 +3,8 @@ def arranging_coins(n):
   if n == 0:
     return 0
   if n == 1:
-       return 1 
-  for stair in range(1, n):
+    return 1
+  for stair in range(0, n):
      n = n - stair
      if n < 0:
        return stair - 1
